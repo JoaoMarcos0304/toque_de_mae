@@ -1,6 +1,11 @@
+import Header from "../components/Header"
+
 function Home() {
   return (
-    <h1>Home page bb</h1>
+    <section>
+      <Header />
+      <h1>Home page bb</h1>
+    </section>
   )
 }
 

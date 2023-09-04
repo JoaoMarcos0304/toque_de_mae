@@ -5,7 +5,8 @@ import Sobre_Mim from './pages/Sobremim';
 import Contato from './pages/Contato';
 import Carrinho from './pages/Carrinho';
 import Criar_Conta from './pages/Criarconta';
-
+import Produtos from './pages/Produtos';
+import Verificar from './pages/Verificar';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Route path="/contato" element={ <Contato /> } />
       <Route path="/carrinho" element={ <Carrinho /> } />
       <Route path="/criarconta" element={ <Criar_Conta /> } />
+      <Route path="/produtos" element={ <Produtos /> } />
+      <Route path="/verificar" element={ <Verificar /> } />
     </Routes>
   )
 }
